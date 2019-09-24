@@ -16,7 +16,7 @@ const PostsPage = ({ data }) => {
             </Link>
           </h3>
           <small className="uppercase font-semibold text-gray-600">
-            {node.frontmatter.date}
+            {node.frontmatter.author} - {node.frontmatter.date}
           </small>
         </header>
         <section>
@@ -45,6 +45,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            author
             date(formatString: "MMMM DD, YYYY")
           }
         }
