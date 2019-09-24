@@ -2,7 +2,7 @@
 templateKey: product-page
 name: Banana Socks
 image: /img/socks.jpg
-price: 20
+price: 22
 ---
 
 # Faciem nondum est virtute potuit absens
